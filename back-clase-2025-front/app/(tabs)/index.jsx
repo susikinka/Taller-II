@@ -17,7 +17,7 @@ function enviarMensaje() {
   const Mensaje = {
     mensaje:mensajeLocal
   }
-  axios.post("https://192.168.14.9:5000/subir", Mensaje)
+  axios.post("https://taller-ii-1.onrender.com", Mensaje)
   .then(function(res){
     alert("El mensaje se envió");
     setTimeout(function(){
